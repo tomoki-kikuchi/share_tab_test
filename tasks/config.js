@@ -16,9 +16,9 @@ export const scripts = {
 export const GA_ACCOUNT = 'UA-140420473-1';
 
 // 本番用ドメイン
-export const DOMAIN_URL = 'https://app.netlify.com/sites/quirky-mcclintock-c77b60/';
+export const DOMAIN_URL = 'https://quirky-mcclintock-c77b60.netlify.com/';
 // ステージング用ドメイン
-export const STG_DOMAIN_URL = 'https://app.netlify.com/sites/quirky-mcclintock-c77b60/';
+export const STG_DOMAIN_URL = 'https://quirky-mcclintock-c77b60.netlify.com/';
 
 // export const sass = {
 //   src: `${PATHS.src}/scss/**/*.scss`,
