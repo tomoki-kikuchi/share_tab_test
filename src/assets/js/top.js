@@ -26,8 +26,9 @@ $(() => {
 function setSnsShareLink() {
   $('.js-snsLink-fb').on('click', function(e) {
     e.preventDefault();
-    const shareUrl = $(this).href;
-    openPopUpWin(`https://www.facebook.com/sharer/sharer.php?u=${siteUrl}`);
+    const href = $(this).attr('href');
+    const shareUrl = `https://quirky-mcclintock-c77b60.netlify.com/${href}`;
+    openPopUpWin(`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`);
   });
 
   $('.js-snsLink-tw').on('click', function(e) {
