@@ -1,0 +1,63 @@
+.tabList {
+  display: flex;
+  .tab {
+    width: 33.33%;
+    background-color: #dcdcdc;
+    list-style: none;
+    border-right: 2px solid #fff;
+    &:last-child {
+      border-right: none;
+    }
+    &.selected {
+      background-color: #999;
+      color: #fff;
+    }
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+    }
+  }
+}
+
+.tabContent {
+  width: 100%;
+  height: calc(100vh - 50px);
+}
+
+.shareLink {
+  display: flex;
+  margin-top: 50px;
+  > li {
+    list-style: none;
+  }
+}
+
+.twButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00aced;
+  color: #fff;
+  width: 300px;
+  height: 50px;
+  &:link,
+  &:visited {
+    color: #fff;
+  }
+}
+
+.fbButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #305097;
+  color: #fff;
+  width: 300px;
+  height: 50px;
+  &:link,
+  &:visited {
+    color: #fff;
+  }
+}

@@ -1,0 +1,61 @@
+<%
+  const metaSetting = {
+    title:'タイトルが入ります',
+    description:'ディスクリプションが入ります',
+    tw_card:'summary_large_image',
+    // tw_site:'@hoge',
+    og_url:`${domainUrl}`,
+    og_type:'website',
+    og_title:'OGが入ります',
+    og_description:'OGディスクリプションが入ります',
+    og_site_name:'サイト名が入ります。',
+    og_image:`${domainUrl}assets/images/ogp.jpg`
+  }
+%>
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+<%- include('./include/_meta',{config:metaSetting}) %>
+<%- include('./include/_og',{config:metaSetting}) %>
+<%- include('./include/_tw_card',{config:metaSetting}) %>
+<%- include('./include/_analytics',{gaAccount:gaAccount}) %>
+<link rel="stylesheet" href="/assets/css/top.css?<%=date%>">
+</head>
+
+<body>
+<div class="wrapper">
+  <ul class="tabList">
+    <li class="tab selected"><a href="#">タブ1</a></li>
+    <li class="tab"><a href="#">タブ2</a></li>
+    <li class="tab"><a href="#">タブ3</a></li>
+  </ul>
+  <div class="tabContent-wrap">
+    <section id="tabContent1" class="tabContent">
+      <p>タブ1のコンテンツ</p>
+      <ul class="shareLink">
+        <li><a href="#" class="twButton">Twitterでシェアする</a></li>
+        <li><a href="#" class="fbButton">Facebookでシェアする</a></li>
+      </ul>
+    </section>
+    <section id="tabContent2" class="tabContent">
+      <p>タブ2のコンテンツ</p>
+      <ul class="shareLink">
+        <li><a href="#" class="twButton">Twitterでシェアする</a></li>
+        <li><a href="#" class="fbButton">Facebookでシェアする</a></li>
+      </ul>
+    </section>
+    <section id="tabContent3" class="tabContent">
+      <p>タブ3のコンテンツ</p>
+      <ul class="shareLink">
+        <li><a href="#" class="twButton">Twitterでシェアする</a></li>
+        <li><a href="#" class="fbButton">Facebookでシェアする</a></li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+  <script src="/assets/js/top.js?<%=date%>"></script>
+</body>
+
+</html>
