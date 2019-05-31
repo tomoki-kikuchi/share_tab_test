@@ -1,0 +1,30 @@
+<%
+  const metaSetting = {
+    title:'タイトルが入ります',
+    description:'ディスクリプションが入ります',
+    tw_card:'summary_large_image',
+    // tw_site:'@hoge',
+    og_url:`${domainUrl}?tab=1`,
+    og_type:'website',
+    og_title:'タブ１のタイトル',
+    og_description:'タブ１のOGディスクリプションが入ります',
+    og_site_name:'サイト名が入ります。',
+    og_image:`${domainUrl}assets/images/ogp1.jpg`
+  }
+%>
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+<%- include('./include/_meta',{config:metaSetting}) %>
+<%- include('./include/_og',{config:metaSetting}) %>
+<%- include('./include/_tw_card',{config:metaSetting}) %>
+<%- include('./include/_analytics',{gaAccount:gaAccount}) %>
+<link rel="stylesheet" href="/assets/css/top.css?<%=date%>">
+</head>
+
+<body>
+
+</body>
+
+</html>
