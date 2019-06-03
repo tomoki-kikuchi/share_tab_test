@@ -31,12 +31,12 @@ function setSnsShareLink() {
     e.preventDefault();
     const href = $(this).attr('href');
     const shareUrl = `https://quirky-mcclintock-c77b60.netlify.com/${href}`;
-    const siteTitle = 'タイトル';
+    const shareText = 'Twitterでシェアするテキストです';
     const hashTags = ['ハッシュタグ1', 'ハッシュタグ2'];
 
     console.log(`shareUrl::`, shareUrl);
 
-    openPopUpWin(`http://twitter.com/share?text=${siteTitle}&url=${shareUrl}&hashtags=${hashTags.join(',')}`);
+    openPopUpWin(`http://twitter.com/share?text=${shareText}&url=${shareUrl}&hashtags=${hashTags.join(',')}`);
   });
 
   $('.js-snsLink-line').on('click', function(e) {
