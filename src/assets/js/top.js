@@ -43,10 +43,12 @@ function setSnsShareLink() {
     e.preventDefault();
     const href = $(this).attr('href');
     const shareUrl = `https://quirky-mcclintock-c77b60.netlify.com/${href}`;
+    const shareText = 'LINEで送るテキストです';
 
     console.log(`shareUrl::`, shareUrl);
+    console.log(`shareText::`, shareText, encodeURI(shareText));
 
-    openPopUpWin(`https://line.me/R/msg/text/?${shareUrl}`);
+    openPopUpWin(`https://line.me/R/msg/text/?${encodeURI(shareText)}%0d%0a%0d%0a${shareUrl}`);
   });
 }
 
