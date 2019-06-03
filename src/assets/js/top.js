@@ -38,6 +38,16 @@ function setSnsShareLink() {
 
     openPopUpWin(`http://twitter.com/share?text=${siteTitle}&url=${shareUrl}&hashtags=${hashTags.join(',')}`);
   });
+
+  $('.js-snsLink-line').on('click', function(e) {
+    e.preventDefault();
+    const href = $(this).attr('href');
+    const shareUrl = `https://quirky-mcclintock-c77b60.netlify.com/${href}`;
+
+    console.log(`shareUrl::`, shareUrl);
+
+    openPopUpWin(`https://line.me/R/msg/text/?${shareUrl}`);
+  });
 }
 
 function openPopUpWin(url) {
