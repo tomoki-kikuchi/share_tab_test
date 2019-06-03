@@ -28,6 +28,8 @@ function setSnsShareLink() {
     e.preventDefault();
     const href = $(this).attr('href');
     const shareUrl = `https://quirky-mcclintock-c77b60.netlify.com/${href}`;
+
+    console.log(shareUrl);
     openPopUpWin(`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`);
   });
 
