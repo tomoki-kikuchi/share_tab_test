@@ -5,6 +5,9 @@
   margin: 0 auto;
   .thumbnail {
     list-style: none;
+    opacity: 0;
+    height: 150px;
+    width: 150px;
   }
 }
 
@@ -35,4 +38,17 @@
 
 #pickupModal {
   display: none;
+}
+
+.fadeIn {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

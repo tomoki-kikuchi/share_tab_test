@@ -1,7 +1,8 @@
 [
   {
-    "image": "https://via.placeholder.com/300?text=1",
-    "thum_image": "https://via.placeholder.com/150?text=1",
+    "id": 1,
+    "image": "https://via.placeholder.com/300/?text=1",
+    "thum_image": "https://via.placeholder.com/150/?text=1",
     "text": "テキスト1テキスト1テキスト1テキスト1テキスト1",
     "site_link": "https://cdp-japan.jp/",
     "tw_link": "https://twitter.com/",
@@ -9,8 +10,9 @@
     "line_link": "https://line.me/ja/"
   },
   {
-    "image": "https://via.placeholder.com/300/999999/fff?text=2",
-    "thum_image": "https://via.placeholder.com/150/999999/fff?text=2",
+    "id": 2,
+    "image": "https://via.placeholder.com/300/999999/fff/FFFFFF?text=2",
+    "thum_image": "https://via.placeholder.com/150/999999/fff/FFFFFF?text=2",
     "text": "テキスト2テキスト2テキスト2テキスト2テキスト2",
     "site_link": "https://cdp-japan.jp/",
     "tw_link": "https://twitter.com/",
@@ -18,8 +20,9 @@
     "line_link": "https://line.me/ja/"
   },
   {
-    "image": "https://via.placeholder.com/300/666666?text=3",
-    "thum_image": "https://via.placeholder.com/150/666666?text=3",
+    "id": 3,
+    "image": "https://via.placeholder.com/300/666666/FFFFFF?text=3",
+    "thum_image": "https://via.placeholder.com/150/666666/FFFFFF?text=3",
     "text": "テキスト3テキスト3テキスト3テキスト3テキスト3",
     "site_link": "https://cdp-japan.jp/",
     "tw_link": "https://twitter.com/",
@@ -27,6 +30,7 @@
     "line_link": "https://line.me/ja/"
   },
   {
+    "id": 4,
     "image": "https://via.placeholder.com/300/000000/FFFFFF?text=4",
     "thum_image": "https://via.placeholder.com/150/000000/FFFFFF?text=4",
     "text": "テキスト4テキスト4テキスト4テキスト4テキスト4",
@@ -36,8 +40,9 @@
     "line_link": "https://line.me/ja/"
   },
   {
-    "image": "https://via.placeholder.com/300/FFA655?text=5",
-    "thum_image": "https://via.placeholder.com/150/FFA655?text=5",
+    "id": 5,
+    "image": "https://via.placeholder.com/300/FFA655/FFFFFF?text=5",
+    "thum_image": "https://via.placeholder.com/150/FFA655/FFFFFF?text=5",
     "text": "テキスト5テキスト5テキスト5テキスト5テキスト5",
     "site_link": "https://cdp-japan.jp/",
     "tw_link": "https://twitter.com/",
@@ -45,8 +50,9 @@
     "line_link": "https://line.me/ja/"
   },
   {
-    "image": "https://via.placeholder.com/300/FF30A7?text=6",
-    "thum_image": "https://via.placeholder.com/150/FF30A7?text=6",
+    "id": 6,
+    "image": "https://via.placeholder.com/300/FF30A7/FFFFFF?text=6",
+    "thum_image": "https://via.placeholder.com/150/FF30A7/FFFFFF?text=6",
     "text": "テキスト6テキスト6テキスト6テキスト6テキスト6",
     "site_link": "https://cdp-japan.jp/",
     "tw_link": "https://twitter.com/",
@@ -54,8 +60,9 @@
     "line_link": "https://line.me/ja/"
   },
   {
-    "image": "https://via.placeholder.com/300/51D8FF?text=7",
-    "thum_image": "https://via.placeholder.com/150/51D8FF?text=7",
+    "id": 7,
+    "image": "https://via.placeholder.com/300/51D8FF/FFFFFF?text=7",
+    "thum_image": "https://via.placeholder.com/150/51D8FF/FFFFFF?text=7",
     "text": "テキスト7",
     "site_link": "https://cdp-japan.jp/",
     "tw_link": "https://twitter.com/",
@@ -63,8 +70,9 @@
     "line_link": "https://line.me/ja/"
   },
   {
-    "image": "https://via.placeholder.com/300/114EFF?text=8",
-    "thum_image": "https://via.placeholder.com/150/114EFF?text=8",
+    "id": 8,
+    "image": "https://via.placeholder.com/300/114EFF/FFFFFF?text=8",
+    "thum_image": "https://via.placeholder.com/150/114EFF/FFFFFF?text=8",
     "text": "テキスト8",
     "site_link": "https://cdp-japan.jp/",
     "tw_link": "https://twitter.com/",
@@ -72,8 +80,9 @@
     "line_link": "https://line.me/ja/"
   },
   {
-    "image": "https://via.placeholder.com/300/FF7972?text=9",
-    "thum_image": "https://via.placeholder.com/150/FF7972?text=9",
+    "id": 9,
+    "image": "https://via.placeholder.com/300/FF7972/FFFFFF?text=9",
+    "thum_image": "https://via.placeholder.com/150/FF7972/FFFFFF?text=9",
     "text": "テキスト9",
     "site_link": "https://cdp-japan.jp/",
     "tw_link": "https://twitter.com/",
@@ -81,8 +90,9 @@
     "line_link": "https://line.me/ja/"
   },
   {
-    "image": "https://via.placeholder.com/300/FDFFCD?text=10",
-    "thum_image": "https://via.placeholder.com/150/FDFFCD?text=10",
+    "id": 10,
+    "image": "https://via.placeholder.com/300/FDFFCD/FFFFFF?text=10",
+    "thum_image": "https://via.placeholder.com/150/FDFFCD/FFFFFF?text=10",
     "text": "テキスト10",
     "site_link": "https://cdp-japan.jp/",
     "tw_link": "https://twitter.com/",
@@ -90,8 +100,9 @@
     "line_link": "https://line.me/ja/"
   },
   {
-    "image": "https://via.placeholder.com/300/95FF27?text=11",
-    "thum_image": "https://via.placeholder.com/150/95FF27?text=11",
+    "id": 11,
+    "image": "https://via.placeholder.com/300/95FF27/FFFFFF?text=11",
+    "thum_image": "https://via.placeholder.com/150/95FF27/FFFFFF?text=11",
     "text": "テキスト11",
     "site_link": "https://cdp-japan.jp/",
     "tw_link": "https://twitter.com/",
@@ -99,9 +110,50 @@
     "line_link": "https://line.me/ja/"
   },
   {
-    "image": "https://via.placeholder.com/300/F59FFF?text=12",
-    "thum_image": "https://via.placeholder.com/150/F59FFF?text=12",
+    "id": 12,
+    "image": "https://via.placeholder.com/300/F59FFF/FFFFFF?text=12",
+    "thum_image": "https://via.placeholder.com/150/F59FFF/FFFFFF?text=12",
     "text": "テキスト12",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "id": 13,
+    "image": "https://via.placeholder.com/300/A78CAD/FFFFFF?text=13",
+    "thum_image": "https://via.placeholder.com/150/A78CAD/FFFFFF?text=13",
+    "text": "テキスト13",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "id": 14,
+    "image": "https://via.placeholder.com/300/DDFFA8/FFFFFF?text=14",
+    "thum_image": "https://via.placeholder.com/150/DDFFA8/FFFFFF?text=14",
+    "text": "テキスト14",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "id": 15,
+    "image": "https://via.placeholder.com/300/ADB78F/FFFFFF?text=15",
+    "thum_image": "https://via.placeholder.com/150/ADB78F/FFFFFF?text=15",
+    "text": "テキスト15",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "id": 16,
+    "image": "https://via.placeholder.com/300/917B77/FFFFFF?text=16",
+    "thum_image": "https://via.placeholder.com/150/917B77/FFFFFF?text=16",
+    "text": "テキスト16",
     "site_link": "https://cdp-japan.jp/",
     "tw_link": "https://twitter.com/",
     "fb_link": "https://www.facebook.com/",
