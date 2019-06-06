@@ -6,9 +6,12 @@ import htmlbeautify from 'gulp-html-beautify';
 import gulpIf from 'gulp-if';
 import replace from 'gulp-replace';
 import rename from 'gulp-rename';
-import changedInPlace from 'gulp-changed-in-place';
+// import changedInPlace from 'gulp-changed-in-place';
 
 import { isProduction, PATHS, GA_ACCOUNT, DOMAIN_URL, STG_DOMAIN_URL } from './config';
+
+const fs = require('fs');
+const jsonFilePath = './src/assets/json/pickup.json';
 
 /**
  * EJSのビルドを実行する
@@ -18,6 +21,8 @@ export function ejsTask() {
   const outDir = isProduction ? PATHS.dest : PATHS.docRoot;
   const domainUrl = isProduction ? STG_DOMAIN_URL : STG_DOMAIN_URL;
   const date = new Date().getTime();
+  const pickupData = JSON.parse(fs.readFileSync(jsonFilePath, 'utf8'));
+
   return (
     src([`${PATHS.src}/**/*.ejs`, `!${PATHS.src}/**/_*.ejs`])
       // .pipe(changedInPlace({ firstPass: true }))
@@ -31,6 +36,7 @@ export function ejsTask() {
           gaAccount: GA_ACCOUNT,
           domainUrl,
           date,
+          pickupData,
         })
       )
       .pipe(

@@ -1,0 +1,110 @@
+[
+  {
+    "image": "https://via.placeholder.com/300?text=1",
+    "thum_image": "https://via.placeholder.com/150?text=1",
+    "text": "テキスト1テキスト1テキスト1テキスト1テキスト1",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "image": "https://via.placeholder.com/300/999999/fff?text=2",
+    "thum_image": "https://via.placeholder.com/150/999999/fff?text=2",
+    "text": "テキスト2テキスト2テキスト2テキスト2テキスト2",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "image": "https://via.placeholder.com/300/666666?text=3",
+    "thum_image": "https://via.placeholder.com/150/666666?text=3",
+    "text": "テキスト3テキスト3テキスト3テキスト3テキスト3",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "image": "https://via.placeholder.com/300/000000/FFFFFF?text=4",
+    "thum_image": "https://via.placeholder.com/150/000000/FFFFFF?text=4",
+    "text": "テキスト4テキスト4テキスト4テキスト4テキスト4",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "image": "https://via.placeholder.com/300/FFA655?text=5",
+    "thum_image": "https://via.placeholder.com/150/FFA655?text=5",
+    "text": "テキスト5テキスト5テキスト5テキスト5テキスト5",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "image": "https://via.placeholder.com/300/FF30A7?text=6",
+    "thum_image": "https://via.placeholder.com/150/FF30A7?text=6",
+    "text": "テキスト6テキスト6テキスト6テキスト6テキスト6",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "image": "https://via.placeholder.com/300/51D8FF?text=7",
+    "thum_image": "https://via.placeholder.com/150/51D8FF?text=7",
+    "text": "テキスト7",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "image": "https://via.placeholder.com/300/114EFF?text=8",
+    "thum_image": "https://via.placeholder.com/150/114EFF?text=8",
+    "text": "テキスト8",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "image": "https://via.placeholder.com/300/FF7972?text=9",
+    "thum_image": "https://via.placeholder.com/150/FF7972?text=9",
+    "text": "テキスト9",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "image": "https://via.placeholder.com/300/FDFFCD?text=10",
+    "thum_image": "https://via.placeholder.com/150/FDFFCD?text=10",
+    "text": "テキスト10",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "image": "https://via.placeholder.com/300/95FF27?text=11",
+    "thum_image": "https://via.placeholder.com/150/95FF27?text=11",
+    "text": "テキスト11",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  },
+  {
+    "image": "https://via.placeholder.com/300/F59FFF?text=12",
+    "thum_image": "https://via.placeholder.com/150/F59FFF?text=12",
+    "text": "テキスト12",
+    "site_link": "https://cdp-japan.jp/",
+    "tw_link": "https://twitter.com/",
+    "fb_link": "https://www.facebook.com/",
+    "line_link": "https://line.me/ja/"
+  }
+]

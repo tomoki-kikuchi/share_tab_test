@@ -5,6 +5,7 @@ module.exports = {
   mode: process.env.NODE_ENV,
   entry: {
     'assets/js/top': `${config.srcRoot}/assets/js/top.js`,
+    'assets/js/modal': `${config.srcRoot}/assets/js/modal.js`,
   },
   module: {
     rules: [{ test: /\.js$/, use: 'babel-loader' }],

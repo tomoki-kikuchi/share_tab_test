@@ -1,0 +1,58 @@
+<%
+  const metaSetting = {
+    title:'タイトルが入ります',
+    description:'ディスクリプションが入ります',
+    tw_card:'summary_large_image',
+    // tw_site:'@hoge',
+    og_url:`${domainUrl}`,
+    og_type:'website',
+    og_title:'OGが入ります',
+    og_description:'OGディスクリプションが入ります',
+    og_site_name:'サイト名が入ります。',
+    og_image:`${domainUrl}assets/images/top/ogp1.jpg`
+  }
+
+  const pickup = pickupData;
+%>
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+<%- include('./include/_meta',{config:metaSetting}) %>
+<%- include('./include/_og',{config:metaSetting}) %>
+<%- include('./include/_tw_card',{config:metaSetting}) %>
+<%- include('./include/_analytics',{gaAccount:gaAccount}) %>
+<link rel="stylesheet" href="/assets/css/top.css?<%=date%>">
+</head>
+
+<body>
+  <div class="wrapper">
+    <ul class="thumbnailList">
+      <% pickup.forEach((item, index)=>{ %>
+        <li class="thumbnail"><a href="#" class="js-pickupModal" data-modal-index="<%= index+1 %>"><img src="<%= item.thum_image %>" alt=""></a></li>
+      <% }) %>
+    </ul>
+  </div>
+
+
+  <div id="pickupModal" class="c-modal">
+    <div class="c-modal__bg js-pickupModalClose"></div>
+    <div class="c-modal__inner">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <% pickup.forEach((item)=>{ %>
+          <div class="swiper-slide">
+            <p><%=item.text%></p>
+            <figure><img src="<%= item.image %>" alt=""></figure>
+          </div>
+          <% }) %>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/js/modal.js?<%=date%>"></script>
+</body>
+
+</html>

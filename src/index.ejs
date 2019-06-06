@@ -11,6 +11,8 @@
     og_site_name:'サイト名が入ります。',
     og_image:`${domainUrl}assets/images/top/ogp1.jpg`
   }
+
+  const pickup = pickupData;
 %>
 <!DOCTYPE html>
 <html lang="jp">
@@ -55,10 +57,37 @@
         <li><a href="share3.html" class="lineButton js-snsLink-line">LINEで送る</a></li>
       </ul>
     </section>
+
+    <section id="pickup">
+      <ul class="thumbnailList">
+        <% pickup.forEach((item, index)=>{ %>
+          <li class="thumbnail"><a href="#" class="js-pickupModal" data-modal-index="<%= index+1 %>"><img src="<%= item.thum_image %>" alt=""></a></li>
+        <% }) %>
+      </ul>
+
+      <div id="pickupModal" class="c-modal">
+        <div class="c-modal__bg js-pickupModalClose"></div>
+        <div class="c-modal__inner">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <% pickup.forEach((item)=>{ %>
+              <div class="swiper-slide">
+                <p><%=item.text%></p>
+                <figure><img src="<%= item.image %>" alt=""></figure>
+              </div>
+              <% }) %>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+
+    </section>
   </div>
 </div>
 
   <script src="/assets/js/top.js?<%=date%>"></script>
+  <script src="/assets/js/modal.js?<%=date%>"></script>
 </body>
 
 </html>
