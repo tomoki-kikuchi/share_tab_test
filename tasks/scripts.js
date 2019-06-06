@@ -26,3 +26,8 @@ export function esLint() {
 }
 
 export const jsCompileTask = series(esLint, esTranspile);
+
+export function copyJsonTask() {
+  const outDir = isProduction ? PATHS.dest : PATHS.docRoot;
+  return src(`${PATHS.src}**/*.json`).pipe(dest(outDir));
+}

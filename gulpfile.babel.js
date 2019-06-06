@@ -8,7 +8,7 @@ import { ejsTask } from './tasks/ejs';
 import { sassCompileTask } from './tasks/sass';
 import { browserSyncTask, reloadTask } from './tasks/server';
 import { optimizeImageTask, copyImageTask, copyMovieTask } from './tasks/optimizeImage';
-import { jsCompileTask } from './tasks/scripts';
+import { copyJsonTask, jsCompileTask } from './tasks/scripts';
 
 import { PATHS } from './tasks/config';
 
@@ -22,6 +22,9 @@ function watchTask(callback) {
   callback();
 }
 
-export const start = series(parallel(ejsTask, sassCompileTask, jsCompileTask, copyImageTask, copyMovieTask, watchTask), browserSyncTask);
-export const build = series(cleanTask, ejsTask, sassCompileTask, jsCompileTask, optimizeImageTask, copyMovieTask);
+export const start = series(
+  parallel(ejsTask, sassCompileTask, jsCompileTask, copyImageTask, copyMovieTask, copyJsonTask, watchTask),
+  browserSyncTask
+);
+export const build = series(cleanTask, ejsTask, sassCompileTask, jsCompileTask, optimizeImageTask, copyMovieTask, copyJsonTask);
 export const convert = series(convertCsvToJson);
